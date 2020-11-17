@@ -9,7 +9,7 @@ function App() {
       <Router>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about?param1=1">About</Link>
         </nav>
         <Switch>
           <Route exact path="/" component={Home} />
