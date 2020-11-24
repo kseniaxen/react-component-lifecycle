@@ -11,8 +11,8 @@ class About extends React.Component {
     UNSAFE_componentWillUpdate() {
         console.log("componentWillUpdate");
     }
-    UNSAFE_componentWillReceiveProps(nextProps, nextContent) {
-        console.log("componentWillReceiveProps", nextProps, this.props);
+    UNSAFE_componentWillReceiveProps(oldProps) {
+        console.log("componentWillReceiveProps", oldProps, this.props);
     }
     componentDidMount() {
         console.log("Component did mount");
